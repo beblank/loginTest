@@ -14,5 +14,32 @@
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Hello World!"/>
+            android:text="Username"
+            android:id="@+id/usernameLbl"/>
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/usernameLbl"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="16dp"
+            android:id="@+id/usernameEdit"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:layout_below="@+id/usernameEdit"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="16dp"
+            android:id="@+id/passwordLbl"
+            />
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/passwordLbl"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="16dp"
+            android:id="@+id/passwordEdit"/>
+
 </RelativeLayout>
