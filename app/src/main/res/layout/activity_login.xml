@@ -39,7 +39,17 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/passwordLbl"
             android:layout_alignParentStart="true"
+            android:inputType="textPassword"
             android:layout_marginTop="16dp"
             android:id="@+id/passwordEdit"/>
+
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/passwordEdit"
+            android:layout_alignParentStart="true"
+            android:text="Submit"
+            android:layout_marginTop="16dp"
+            android:id="@+id/submitBtn"/>
 
 </RelativeLayout>
